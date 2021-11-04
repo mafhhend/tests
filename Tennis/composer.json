@@ -1,0 +1,17 @@
+{
+    "name": "saman/tennis",
+    "authors": [
+        {
+            "name": "samankhdev",
+            "email": "samkh.dev@yahoo.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\":"src/"
+        }
+    }
+}
